@@ -13,6 +13,7 @@ netflix_movies = netflix_subset[['title', 'country', 'genre', 'release_year', 'd
 
 short_movies = netflix_movies[netflix_movies['duration'] < 60]
 
+print("this is a comment")
 
 colors = []
 for genre in netflix_movies['genre']:
